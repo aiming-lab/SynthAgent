@@ -1,5 +1,5 @@
 <div>
-<h2 align="center">Adapting Web Agents with Synthetic Supervision</h2>
+<h2 align="center"><a href="https://arxiv.org/pdf/2511.06101"> Adapting Web Agents with Synthetic Supervision</a></h2>
 
 <p align="center">
   <a href="https://github.com/Raibows">Zhaoyang Wang<sup>1,3</sup></a>,
@@ -19,6 +19,10 @@
   <sup>1</sup>UNC-Chapel Hill &nbsp; <sup>2</sup>Purdue University &nbsp; <sup>3</sup>Microsoft
 </p>
 </div>
+<p align="center">
+  <a href="https://arxiv.org/pdf/2511.06101" target="_blank">Paper (arXiv)</a>&nbsp;&nbsp;
+  HuggingFace (coming soon)
+</p>
 
 ## Overview
 <div align="center">
@@ -143,4 +147,18 @@ python multi_exeagent.py \
 If you want to evaluate all tasks in WebArena, please use `configs/webarena.750.jsonl`.
 
 Get final accuracy results by `python acc.py --input outputs/exeagent/webarena/webarena.xxxx.folder`.
+
+## Citation
+If you find our paper or codes useful, please kindly cite:
+```bibtex
+@article{wang2025adaptingwebagentssynthetic,
+      title={Adapting Web Agents with Synthetic Supervision}, 
+      author={Zhaoyang Wang and Yiming Liang and Xuchao Zhang and Qianhui Wu and Siwei Han and Anson Bastos and Rujia Wang and Chetan Bansal and Baolin Peng and Jianfeng Gao and Saravan Rajmohan and Huaxiu Yao},
+      year={2025},
+      eprint={2511.06101},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2511.06101}, 
+}
+```
 
