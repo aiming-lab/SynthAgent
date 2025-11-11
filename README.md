@@ -26,6 +26,9 @@
 </div>
 SynthAgent is a framework for adapting web agents to any new environments using synthetic supervision. It efficiently synthesizes diverse user tasks by categorized exploration. Then, it refines these tasks during trajectory collection to mitigate hallucinations. After collection, it refines the trajectories to enhance the data quality. Finally, it utilizes refined data to fine-tune the agent, improving the performance in the target new environment.
 
+## Quick Start
+**‼️We plan to release the refined data and fine-tuned models, so you can freely use the data and agents without going through the whole pipeline. Stay tuned!**
+
 ## Requirements
 
 ### Environment
@@ -68,9 +71,6 @@ python -c "import nltk; nltk.download('punkt_tab')"
 # install pytorch cpu for converting data into LLaMA-Factory training format
 uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 ```
-
-## Quick Start
-**‼️We plan to release the refined data and fine-tuned models, so you can freely use the data and agents without going through the whole pipeline. Stay tuned!**
 
 ## Step 1: Task Synthesis
 Before running everything, please ensure the WebArena environment is running properly. You may also need to configure the environment ports to satisfy:
