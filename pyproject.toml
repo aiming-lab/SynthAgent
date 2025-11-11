@@ -1,0 +1,33 @@
+# PEP 621-compliant pyproject.toml for SynthAgent
+
+[project]
+name = "syn"
+version = "0.1.0"
+description = "SynthAgent (syn) is a framework for adapting web agents to any new environments using synthetic supervision."
+authors = [
+  { name = "Zhaoyang Wang", email = "first_name@unc.edu" },
+]
+license = "GPL-3.0-or-later"
+requires-python = ">=3.10"
+
+# Runtime dependencies inferred from your environment setup script
+dependencies = [
+  "uv",
+  "simpleArgParser",
+  "huggingface-hub",
+  "transformers==4.55.4",
+  "datasets",
+  "loguru",
+  "tqdm",
+  "openai==1.86.0",
+  "tokenizers",
+  "opencv-python",
+  "playwright==1.32.1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["syn", "syn.*"]
