@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/Raibows">Zhaoyang Wang<sup>1,3</sup></a>,
-  Yiming Liang<sup>2</sup>,
+  <a href="https://github.com/plzdoo">Yiming Liang<sup>2</sup></a>,
   <a href="https://xuczhang.github.io/">Xuchao Zhang<sup>3</sup></a>,
   <a href="https://qianhuiwu.github.io/">Qianhui Wu<sup>3</sup></a>,
   <a href="https://lillianwei-h.github.io/">Siwei Han<sup>1</sup></a>,<br/>
