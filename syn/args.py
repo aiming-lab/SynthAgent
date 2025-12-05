@@ -224,6 +224,9 @@ class ExeAgentConfig(ExploreConfig):
     # params for agent inference
     history_last_k: int | None = 3
 
+    # eval gpt client
+    eval_gpt: GPTConfig = field(default_factory=GPTConfig)
+
 
 
 

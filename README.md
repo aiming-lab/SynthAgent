@@ -108,11 +108,11 @@ We perform task refinement during trajectory collection to mitigate potential ha
 python multi_exeagent.py \
 --num_processes 8 \
 --tasks_path configs/synthagent.jsonl \
---model gpt-4.1 \
 --ignore_start_url yes \
 --env_start_port 11000 \
 --refine yes \
---openai_api_key "your_openai_api_key"
+--gpt.model gpt-4.1 \
+--gpt.openai_api_key "your_openai_api_key"
 ```
 
 The refined tasks and collected trajectories will be saved in `outputs/exeagent/webarena/synthagent.xxxx`.
@@ -139,9 +139,11 @@ Then, you can finish the SFT fine-tuning following the config [here](https://git
 python multi_exeagent.py \
 --num_processes 8 \
 --tasks_path configs/webarena.jsonl \
---model qwen7b \
 --env_start_port 12000 \
---openai_api_base http://xxxxx_your_serving_address
+--gpt.model qwen7b \
+--openai_api_base http://xxxxx_your_serving_address \
+--eval_gpt.model gpt-4.1 \
+--eval_gpt.openai_api_key "your_openai_api_key"
 ```
 
 If you want to evaluate all tasks in WebArena, please use `configs/webarena.750.jsonl`.

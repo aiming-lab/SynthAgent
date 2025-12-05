@@ -71,7 +71,7 @@ class ExeAgent(Explorer):
         self.tasks_todo: list[dict] = []  # High-level tasks that to be executed {'task': str, 'start_url': str}
         self.tasks_done_unique: dict[str, str] = {}  # task: status
 
-        self.eval_gpt_client = GPTClient(provider=config.gpt.provider, base_url=config.gpt.openai_api_base)
+        self.eval_gpt_client = GPTClient(provider=config.eval_gpt.provider, base_url=config.eval_gpt.openai_api_base, api_key=config.eval_gpt.openai_api_key)
         self.load()
 
 

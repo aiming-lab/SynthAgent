@@ -39,7 +39,7 @@ class Explorer:
     ):
         self.config = config
 
-        self.gpt_client =  GPTClient(provider=self.config.gpt.provider)
+        self.gpt_client =  GPTClient(provider=self.config.gpt.provider, base_url=self.config.gpt.openai_api_base, api_key=self.config.gpt.openai_api_key)
 
         self.exploration_traj_save_db: list[ExplorationTraj] = []
         self.db_status = {
