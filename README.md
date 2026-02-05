@@ -21,7 +21,9 @@
 </div>
 <p align="center">
   <a href="https://arxiv.org/pdf/2511.06101" target="_blank">Paper (arXiv)</a>&nbsp;&nbsp;
-  HuggingFace (coming soon)
+  <a href="https://huggingface.co/ChilleD/SynthAgent" target="_blank">🤗 SynthAgent-Data</a>&nbsp;&nbsp;
+  <a href="https://huggingface.co/ChilleD/SynthAgent-SFT-Qwen2.5-VL-7B" target="_blank">🤗 SynthAgent-Qwen</a>&nbsp;&nbsp;
+  <a href="https://huggingface.co/ChilleD/SynthAgent-SFT-UI-TARS-1.5-7B" target="_blank">🤗 SynthAgent-UI-TARS</a>
 </p>
 
 ## Overview
@@ -31,7 +33,14 @@
 SynthAgent is a framework for adapting web agents to any new environments using synthetic supervision. It efficiently synthesizes diverse user tasks by categorized exploration. Then, it refines these tasks during trajectory collection to mitigate hallucinations. After collection, it refines the trajectories to enhance the data quality. Finally, it utilizes refined data to fine-tune the agent, improving the performance in the target new environment.
 
 ## Quick Start
-**‼️We plan to release the refined data and fine-tuned models, so you can freely use the data and agents without going through the whole pipeline. Stay tuned!**
+
+🎉 **We have released the synthesis data including tasks and trajectories and fine-tuned models!** You can directly use them without going through the whole pipeline.
+
+| Resource | Link |
+|----------|------|
+| 📦 Data | [🤗 ChilleD/SynthAgent](https://huggingface.co/ChilleD/SynthAgent) |
+| 🤖 SynthAgent-SFT-Qwen2.5-VL-7B | [🤗 ChilleD/SynthAgent-SFT-Qwen2.5-VL-7B](https://huggingface.co/ChilleD/SynthAgent-SFT-Qwen2.5-VL-7B) |
+| 🤖 SynthAgent-SFT-UI-TARS-1.5-7B | [🤗 ChilleD/SynthAgent-SFT-UI-TARS-1.5-7B](https://huggingface.co/ChilleD/SynthAgent-SFT-UI-TARS-1.5-7B) |
 
 ## Requirements
 
