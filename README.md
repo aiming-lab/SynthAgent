@@ -20,7 +20,7 @@
 </p>
 </div>
 <p align="center">
-  <a href="https://arxiv.org/pdf/2511.06101" target="_blank">Paper (arXiv)</a>&nbsp;&nbsp;
+  <a href="https://arxiv.org/pdf/2511.06101" target="_blank">Paper (ACL 2026)</a>&nbsp;&nbsp;
   <a href="https://huggingface.co/ChilleD/SynthAgent" target="_blank">🤗 SynthAgent-Data</a>&nbsp;&nbsp;
   <a href="https://huggingface.co/ChilleD/SynthAgent-SFT-Qwen2.5-VL-7B" target="_blank">🤗 SynthAgent-Qwen</a>&nbsp;&nbsp;
   <a href="https://huggingface.co/ChilleD/SynthAgent-SFT-UI-TARS-1.5-7B" target="_blank">🤗 SynthAgent-UI-TARS</a>
